@@ -6,7 +6,7 @@ const csv=require('csvtojson');
 const port=8585;
 const csvFilePath='./scrapedData.csv';
 
-app.get('/',(req,res,err)=>{
+app.get('/scrapedData',(req,res,err)=>{
     csv()
     .fromFile(csvFilePath)
     .then((jsonObj)=>{
