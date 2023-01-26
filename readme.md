@@ -13,4 +13,7 @@ This will install all required packages.
 >
 > node server.js
 >
-This will start server at https://localhost:8585/scrapedData
+This will start server at port 8585 and the end point to access the data will be
+>
+>https://localhost:8585/scrapedData
+>
