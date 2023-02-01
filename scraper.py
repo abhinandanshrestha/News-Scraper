@@ -25,7 +25,7 @@ for i in range(len(base_url)):
             a={'headline':headline,'body':body,'location':location,'time_published':time_published}
             data.append(a)  
         
-        print("Scraped page"+str(j))
+        print("Scraped page"+str(j)+" from url "+str(i))
         time.sleep(5)
 
 # Save file to csv for further analysis
