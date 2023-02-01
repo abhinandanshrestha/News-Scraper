@@ -1,5 +1,5 @@
 # Data pipelining
-This project was created as an assignment for the Coderush Apprenticeship. Here, we have scraped https://news.sky.com/ to collect categories and headlines, followed by data manipulation to serve the data to the endpoint.
+This project was created as an assignment for the Coderush Apprenticeship. Here, we have scraped https://thehimalayantimes.com/ to collect headline, body, category and time_published followed by data manipulation to serve the data to the endpoint.
 1. Run scraper.py as: 
 >
 > python scraper.py 
