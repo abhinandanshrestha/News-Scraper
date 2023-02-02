@@ -29,7 +29,7 @@ for i in range(len(base_url)):
         time.sleep(5)
 
 # Save file to csv for further analysis
-with open('scraptedData.csv', 'w') as csvfile:
+with open('category/scrapedData.csv', 'w') as csvfile:
     writer = csv.DictWriter(csvfile, fieldnames = ['headline','body','location','time_published'])
     writer.writeheader()
     writer.writerows(data)
