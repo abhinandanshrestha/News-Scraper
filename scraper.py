@@ -5,12 +5,13 @@ import csv
 import time
 
 data=[]
-base_url=['https://thehimalayantimes.com/morearticles/Nepal?pgno=','https://thehimalayantimes.com/morearticles/World?pgno=','https://thehimalayantimes.com/morearticles/Opinion?pgno=','https://thehimalayantimes.com/morearticles/Business?pgno=','https://thehimalayantimes.com/morearticles/Entertainment?pgno=','https://thehimalayantimes.com/morearticles/Lifestyle?pgno=','https://thehimalayantimes.com/morearticles/Science%20and%20Tech?pgno=','https://thehimalayantimes.com/morearticles/Health?pgno=']
+category=['Nepal','World','Opinion','Business','Entertainment','Lifestyle','Science%20and%20Tech','Health']
+# base_url=["https://thehimalayantimes.com/morearticles/"+category+"?pgno=" for category in categories]
 
 #Configure beautiful soup
-for i in range(len(base_url)):
+for i in range(len(category)):
     for j in range(1,31):
-        url=base_url[i]+str(j)
+        url="https://thehimalayantimes.com/morearticles/"+category[i]+"?pgno="+str(j)
         htmldocs=requests.get(url).content
         soup = BeautifulSoup(htmldocs,'html.parser')
 
@@ -26,7 +27,7 @@ for i in range(len(base_url)):
             data.append(a)  
         
         print("Scraped page"+str(j)+" from url "+str(i))
-        time.sleep(5)
+        time.sleep(1)
 
 # Save file to csv for further analysis
 with open('category/scrapedData.csv', 'w') as csvfile:
