@@ -1,5 +1,12 @@
 # Data pipelining
 This project was created as an assignment for the Coderush Apprenticeship. Here, we have scraped https://thehimalayantimes.com/ to collect headline, body, category and time_published followed by data manipulation to serve the data to the endpoint.
+
+The Project is a gropy project and the Members of the group are:
+<br/>
+-Abhinandhan Shrestha
+-Anushil Timsina
+-Santosh Dangal
+
 1. Run scraper.py as: 
 >
 > python scraper.py 
