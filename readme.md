@@ -2,7 +2,7 @@
 This project was created as an assignment for the Coderush Apprenticeship. Here, we have scraped https://thehimalayantimes.com/ to collect headline, body, category and time_published followed by data manipulation to serve the data to the endpoint.
 
 The Project is a group project and the Members of the group are:<br/>
--Abhinandhan Shrestha<https://github.com/abhinandanshrestha><br/>
+-[Abhinandhan Shrestha](https://github.com/abhinandanshrestha)<br/>
 -Anushil Timsina<br/>
 -Santosh Dangal<br/>
 
