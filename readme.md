@@ -4,7 +4,7 @@ This project was created as an assignment for the Coderush Apprenticeship. Here,
 The Project is a group project and the Members of the group are:<br/>
 -[Abhinandan Shrestha](https://github.com/abhinandanshrestha)<br/>
 -[Anushil Timsina](https://github.com/Anushil007)<br/>
--[Santosh Dangal]<br/>
+-[Santosh Dangal]()<br/>
 
 1. Run scraper.py as: 
 >
