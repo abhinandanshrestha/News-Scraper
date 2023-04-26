@@ -1,7 +1,7 @@
 # Data pipelining
 This project was created as an assignment for the Coderush Apprenticeship. Here, we have scraped https://thehimalayantimes.com/ to collect headline, body, category and time_published followed by data manipulation to serve the data to the endpoint.
 
-Porject Members:<br/>
+Project Members:<br/>
 -[Abhinandan Shrestha](https://github.com/abhinandanshrestha)<br/>
 -[Anushil Timsina](https://github.com/Anushil007)<br/>
 -[Santosh Dangal]()<br/>
